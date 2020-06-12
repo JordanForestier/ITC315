@@ -1,0 +1,10 @@
+.animtest, .noanimtest { display: none;}
+// Permet de cacher les deux classes animtest et noanimtest avec display: none
+
+.cssanimations .animtest { display:block;}
+// Affiche la classe animtest si les animations sont prises en charge
+// càd renvoi du texte de prise en charge des animations 
+
+.no-cssanimations .noanimtest { display:block;}
+// Affiche la classe noanimtest si les animations ne sont pas prises en charge
+// càd renvoi du texte de non-prise en charge
